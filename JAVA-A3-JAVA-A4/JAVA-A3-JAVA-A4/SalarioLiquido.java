@@ -1,4 +1,5 @@
 package exercicios;
+
 import java.util.Scanner;
 
 public class SalarioLiquido {
@@ -18,7 +19,7 @@ public class SalarioLiquido {
 
         salarioLiquido = salarioBruto + adicional - descontos;
 
-        System.out.printf("Salário líquido: %.2f\n", salarioLiquido);
+        System.out.printf("Salário líquido: %.2f%n", salarioLiquido);
 
         scanner.close();
     }
