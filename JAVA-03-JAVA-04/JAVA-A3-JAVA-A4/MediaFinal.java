@@ -22,7 +22,7 @@ public class MediaFinal {
 
         media = (nota1 + nota2 + nota3 + nota4) / 4;
 
-        System.out.printf("Média final: %.1f\n", media);
+        System.out.printf("Média final: %.2f%n", media);
 
         scanner.close();
     }
