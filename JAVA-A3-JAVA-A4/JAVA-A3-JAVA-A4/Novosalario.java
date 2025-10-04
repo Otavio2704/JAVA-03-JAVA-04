@@ -1,4 +1,5 @@
 package exercicios;
+
 import java.util.Scanner;
 
 public class NovoSalario {
@@ -15,7 +16,7 @@ public class NovoSalario {
 
         novoSalario = salario + abono;
 
-        System.out.printf("Novo salário: %.2f\n", novoSalario);
+        System.out.printf("Novo salário: %.2f%n", novoSalario);
 
         scanner.close();
     }
