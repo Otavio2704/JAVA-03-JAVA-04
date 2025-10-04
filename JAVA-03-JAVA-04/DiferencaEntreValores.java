@@ -16,9 +16,8 @@ public class DiferencaEntreValores {
 
         diferenca = Math.abs(valor1 - valor2);
 
-        System.out.printf("Diferença entre os valores: %.1f%n", diferenca);
+        System.out.printf("Diferença entre os valores: %.2f%n", diferenca);
 
         scanner.close();
     }
 }
-
